@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+/* utility class */
+
+.primary-btn {
+    background-color: #FF6551;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px 136px;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* nav related styles */
+
+nav {
+    justify-content: space-between;
+    background-color: #e74040;
+    color: white;
+}
+.nav-left {
+    gap: 30px;
+}
+.n-links {
+    gap: 20px;
+}
+.nav-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+nav h2 {
+    font-size: 24px;
+}
