@@ -9,10 +9,41 @@ body {
 
 /* utility class */
 
+h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+h2 {}
+
+h3 {}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
 .primary-btn {
     background-color: #FF6551;
     padding: 15px 25px;
     border-radius: 5px;
+    color: white;
+}
+.second-btn {
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #FF6551 ;
 }
 
 .container {
@@ -22,9 +53,11 @@ body {
 a {
     text-decoration: none;
 }
+
 li {
     list-style: none;
 }
+
 .flex {
     display: flex;
     align-items: center;
@@ -37,17 +70,43 @@ nav {
     background-color: #e74040;
     color: white;
 }
+
 .nav-left {
     gap: 30px;
 }
+
 .n-links {
     gap: 20px;
 }
+
 .nav-link {
     color: white;
     font-size: 14px;
     font-weight: 700;
 }
+
 nav h2 {
     font-size: 24px;
+}
+
+/* hero section */
+
+.hero {
+    background-image: url('./images/background\ sec-.png');
+    background-size: cover;
+    color: white;
+}
+.h-left{
+    flex-direction: column;
+    align-items: flex-start;
+gap: 30px;
+}
+.hero img {
+    width: 40vw;
+}
+.h-text {
+    padding-right: 50%;
+}
+.h-head-text {
+    padding-right: 30%;
 }
